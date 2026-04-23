@@ -1,0 +1,7 @@
+package com.wainrp.round2backend.repository;
+
+import com.wainrp.round2backend.entity.Author;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AuthorRepository  extends JpaRepository<Author, Long> {
+}
